@@ -1,0 +1,6 @@
+# use this to redirect from your netlify.app url to your new domain
+[[redirects]]
+  from = "/*"
+  to = "https://www.example.com/:splat"
+  status = 301
+  force = true
